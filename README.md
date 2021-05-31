@@ -9,6 +9,10 @@
 
 ## Summary Statistics on Suspension Coils
 
+- An image of the total summary dataframe containing the mean, median, variance, and standard deviation can be found [here](https://github.com/azarowj/MechaCar_Statistical_Analysis/blob/main/TotalSummary.png)
+- An image of the lot summary dataframe showing the same summary statistics broken down by manufacturing lot can be found [here](https://github.com/azarowj/MechaCar_Statistical_Analysis/blob/main/LotSummary.png)
+- When looking at the total summary dataframe, we would say that that the manufacturing data meets the design specification. The design specficiation in question being that the variance must not exceed 100 pounds per square inch. The varinace in total summary data frame is seen to be 62.3. However, when we look more closely, there is cause for concern. Lot 1's variance is approximately 1, which is astonishingly good. Lot 2's variance is about 7.5, which is still beyond acceptable. However, Lot 3's variance is seen to be 170. Lot 3 does not meet the design specification. The variances are so low in Lots 1 and 2 though, that it brings down the total variance to be within an acceptable range.
+
 ## T-Tests on Suspension Coils
 
 - An image of the results for the t-test across all manufacturing lots can be found [here](https://github.com/azarowj/MechaCar_Statistical_Analysis/blob/main/AllLotsTTest.png).
