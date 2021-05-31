@@ -19,5 +19,10 @@
 - An image of the results for the t-test for manufacturing Lot 1 can be found [here](https://github.com/azarowj/MechaCar_Statistical_Analysis/blob/main/Lot1TTest.png)
 - An image of the results for the t-test for manufacturing Lot 2 can be found [here](https://github.com/azarowj/MechaCar_Statistical_Analysis/blob/main/Lot2TTest.png)
 - An image of the results for the t-test for manufacturing Lot 3 can be found [here](https://github.com/azarowj/MechaCar_Statistical_Analysis/blob/main/Lot3TTest.png)
+- The null hypothesis of a 1 sample t-test is that there is no statistical difference between the sample mean and the population mean.
+- When looking at the results for the t-test across all manufacturing lots, we see that the p-value is 0.06028. This is greater than the assumed significance level of 0.05%. Therefore, we fail to reject the null hypothesis and assume that there is no statistical difference between the sample mean and the population mean of 1500.
+- When looking at the results for the t-test for manufacturing Lot 1, we see that the p-value is 1. This is greater than the assumed significance level of 0.05%. Therefore, we fail to reject the null hypothesis and assume that there is no statistical difference between the sample mean and the population mean of 1500.
+- When looking at the results for the t-test for manufacturing Lot 2, we see that the p-value is 0.6072. This is greater than the assumed significance level of 0.05%. Therefore, we fail to reject the null hypothesis and assume that there is no statistical difference between the sample mean and the population mean of 1500.
+- When looking at the results for the t-test for manufacturing Lot 3, we see that the p-value is 0.04168. This is less than the assumed signifance level of 0.05%. Therefore, we reject the null hypothesis and assume that there is a statistical difference between the sample mean and the population mean of 1500.
 
 ## Study Design: MechaCar vs Competition
