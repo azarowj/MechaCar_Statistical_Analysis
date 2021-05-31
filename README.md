@@ -26,3 +26,8 @@
 - When looking at the results for the t-test for manufacturing Lot 3, we see that the p-value is 0.04168. This is less than the assumed signifance level of 0.05%. Therefore, we reject the null hypothesis and assume that there is a statistical difference between the sample mean and the population mean of 1500.
 
 ## Study Design: MechaCar vs Competition
+
+- For my statistical study, I will look at city fuel efficiency in the MechaCar vs competitor cars in the same class.
+- I would perform multiple 2 sample t-tests. I would perform this test with the sample data from the MechaCar vs the sample data from various competitor cars of the same class.
+- The null hypothesis for each t-test is that there is no statistical difference between the two observed sample means. The alternative hypothesis is that there is a statistical difference between the two observed sample means. 
+- The data needed to run the 2 sample t-tests would be random samples of data of the same size from the MechaCar and all competitor cars I wish to compare. The data would specifically be numerical vectors of city fuel efficiency.
